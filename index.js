@@ -33,7 +33,7 @@ function createResponsePayload(requestBody) {
     }
     
     return {
-        channel: 'suggestions',
+        channel: 'reorgsuggestions',
         text: text
     };
 }
